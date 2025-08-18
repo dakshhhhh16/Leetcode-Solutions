@@ -13,7 +13,7 @@ public:
             int currWater = w* ht;
             maxWater = max(maxWater, currWater);
 
-            height[lp] < height[rp] ? lp++ : rp--;
+            height[lp] < height[rp] ? lp++ : rp--; //ternary operator used to to select the pointer which gives an impact to the height
         }
         return maxWater;        
     }
