@@ -49,6 +49,7 @@ int main() {
     insertAtBeginning(&head, 10); // 10
     insertAtBeginning(&head, 20); // 20 -> 10
     insertAtEnd(&head, 30);       // 20 -> 10 -> 30
+//&head goves the function the ability to udate the head pointer itself
 
     // Print list
     printList(head);
