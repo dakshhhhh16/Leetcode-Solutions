@@ -34,3 +34,4 @@ int main() {
 
     return 0;
 }
+//Pointers required to understand linked list better
