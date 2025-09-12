@@ -41,3 +41,17 @@ void insertAtEnd(Node** head_ref, int new_data) {
     }
     temp->next = new_node; // Change the next of last node
 }
+
+int main() {
+    Node* head = NULL;  // empty list
+
+    // Insert elements
+    insertAtBeginning(&head, 10); // 10
+    insertAtBeginning(&head, 20); // 20 -> 10
+    insertAtEnd(&head, 30);       // 20 -> 10 -> 30
+
+    // Print list
+    printList(head);
+
+    return 0;
+}
